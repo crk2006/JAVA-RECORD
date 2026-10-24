@@ -10,102 +10,19 @@
 <body>
     <div class="app-shell">
         <aside class="sidebar" id="sidebar">
-            <div class="brand-row">
-                <div class="brand-mark">JLR<span>.</span></div>
-                <button class="icon-button close-menu" id="closeMenu" aria-label="Close menu">×</button>
-            </div>
+            <div class="brand-row"><div class="brand-mark">JLR<span>.</span></div><button class="icon-button close-menu" id="closeMenu" aria-label="Close menu">×</button></div>
             <p class="brand-caption">Java Lab Record</p>
-            <div class="side-label">Lab records</div>
-            <button class="all-weeks-button" id="allWeeksButton" type="button">All Weeks</button>
-            <nav class="week-list" id="weekList" aria-label="Lab records"></nav>
-            <div class="sidebar-foot">
-                <div class="mini-stat"><span class="status-dot"></span><span>Record archive</span><strong>10</strong></div>
-                <div class="sidebar-note">Keep your experiments<br>ready for review.</div>
-            </div>
+            <div class="profile-card"><img src="chandan.jpg" alt="V Chandan Raj Kumar" class="profile-image"><div><strong>V CHANDAN RAJ KUMAR</strong><span>25EU02128 · AI &amp; ML</span></div></div>
+            <p class="college-name">Siddhartha Academy of<br>Higher Education</p>
+            <div class="side-label">Lab records</div><nav class="week-list" id="weekList" aria-label="Lab records"></nav>
+            <div class="sidebar-foot"><div class="mini-stat"><span class="status-dot"></span><span>Record archive</span><strong>2</strong></div><div class="sidebar-note">Keep your experiments<br>ready for review.</div></div>
         </aside>
         <main class="main-content">
-            <header class="topbar">
-                <button class="icon-button menu-button" id="openMenu" aria-label="Open menu">☰</button>
-                <div>
-                    <p class="eyebrow">Java Lab / 2025–26</p>
-                    <h1>Good morning, Chandan<span class="spark">✦</span></h1>
-                    <p class="welcome-copy">Welcome back to your Java lab record.</p>
-                </div>
-                <div class="top-actions">
-                    <label class="search-box" for="searchInput"><span>⌕</span><input id="searchInput" type="search" placeholder="Search records..." autocomplete="off"></label>
-                    <button class="round-action" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
-                    <button class="round-action notification" aria-label="Notifications" title="Notifications">♧<i></i></button>
-                </div>
-            </header>
-            <section class="summary-grid" aria-label="Lab summary">
-                <article class="summary-card progress-card">
-                    <div class="card-heading"><span>Lab progress</span><span class="card-icon">↗</span></div>
-                    <h3>82%</h3>
-                    <p>Record archive completion across all lab weeks.</p>
-                </article>
-                <article class="summary-card">
-                    <div class="card-heading"><span>Current focus</span><span class="card-icon">◌</span></div>
-                    <h3>Java Core</h3>
-                    <p>Exploring syntax, OOP principles, and programming practice.</p>
-                </article>
-                <article class="summary-card">
-                    <div class="card-heading"><span>Last updated</span><span class="card-icon">✧</span></div>
-                    <h3>Today</h3>
-                    <p>Fresh lab documents and weekly performance tracked.</p>
-                </article>
-            </section>
-            <section class="record-panel">
-                <div class="record-panel-head">
-                    <div>
-                        <p class="eyebrow">Current lab record</p>
-                        <h2 id="recordTitle">Week 1</h2>
-                        <p id="recordSubtitle">MST Week 1 PDF</p>
-                    </div>
-                    <div class="nav-controls">
-                        <button class="nav-button" id="previousWeek" type="button" aria-label="Previous week">Previous</button>
-                        <button class="nav-button" id="nextWeek" type="button" aria-label="Next week">Next</button>
-                    </div>
-                </div>
-                <div class="viewer-wrap" id="viewerWrap">
-                    <div class="viewer-header">
-                        <div class="record-meta">
-                            <span class="record-badge" id="recordBadge">Week 1 <span>●</span></span>
-                            <span class="page-indicator" id="pageIndicator">01 / 10</span>
-                        </div>
-                        <div class="viewer-actions">
-                            <button class="action-button" id="downloadDocument" type="button">Download</button>
-                            <button class="action-button" id="openDocument" type="button">Open</button>
-                            <button class="action-button primary" id="fullscreenDocument" type="button">Full screen</button>
-                        </div>
-                    </div>
-                    <div class="frame-shell">
-                        <div class="viewer-loading" id="viewerLoading" aria-live="polite">
-                            <div>
-                                <div class="loading-spinner"></div>
-                                <p>Loading PDF...</p>
-                            </div>
-                        </div>
-                        <object class="document-frame" id="documentFrame" data="documents/week1.pdf" type="application/pdf" aria-label="Lab record PDF"></object>
-                        <div class="missing-document" id="missingDocument" hidden>
-                            <div>
-                                <h3 class="missing-title" id="missingTitle">Document unavailable</h3>
-                                <p class="missing-copy">This PDF could not be loaded. Please try again.</p>
-                                <button class="retry-button" id="retryDocument" type="button">Retry</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer class="bottom-nav" aria-label="Main navigation">
-                <button class="active" type="button">⌂<span>Home</span></button>
-                <button type="button">▣<span>Records</span></button>
-                <button type="button">▤<span>Documents</span></button>
-            </footer>
+            <header class="topbar"><button class="icon-button menu-button" id="openMenu" aria-label="Open menu">☰</button><div><p class="eyebrow">Java Lab / 2025–26</p><h1>Good morning, Chandan<span class="spark">✦</span></h1><p class="welcome-copy">Welcome back to your Java lab record.</p></div><div class="top-actions"><label class="search-box" for="searchInput"><span>⌕</span><input id="searchInput" type="search" placeholder="Search records..." autocomplete="off"></label><button class="round-action" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button><button class="round-action notification" aria-label="Notifications" title="Notifications">♧<i></i></button></div></header>
+            <section class="summary-grid" aria-label="Lab summary"><article class="summary-card progress-card"><div class="card-heading"><span>Lab progress</span><span class="card-icon">↗</span></div><div class="progress-layout"><div class="progress-ring"><strong>100</strong><small>%</small></div><div><strong class="large-value">2 <small>/ 2</small></strong><p>Completed</p><span class="success-text">● All records ready</span></div></div></article><article class="summary-card records-card"><div class="card-heading"><span>Available records</span><span class="card-icon">▤</span></div><strong class="large-value">2 <small>Weeks</small></strong><div class="record-pills"><span>Week 1</span><span>Week 2</span></div></article><article class="summary-card subject-card"><div class="card-heading"><span>Subject</span><span class="card-icon">⌘</span></div><strong class="subject-value">Java Lab</strong><p>Advanced Java</p><div class="subject-line"><span>AI &amp; ML</span><span>2025–26</span></div></article></section>
+            <section class="record-panel"><div class="record-panel-head"><div><p class="eyebrow">Current lab record</p><h2 id="recordTitle">Comparative Table</h2><p id="recordSubtitle">Java, C, C++, Python and JavaScript</p></div><div class="record-badge" id="recordBadge">Week 1 <span>●</span></div></div><div class="document-toolbar"><span class="viewer-label">Document viewer</span><div class="document-actions"><button class="tool-button" id="openDocument">↗ <span>Open in new tab</span></button><a class="tool-button" id="downloadDocument" href="documents/week1.pdf" download>↓ <span>Download</span></a><button class="tool-button primary-tool" id="fullscreenDocument">⛶ <span>Fullscreen</span></button></div></div><div class="viewer-wrap" id="viewerWrap"><div class="viewer-loading" id="viewerLoading">Loading record... <a id="loadingOpenDocument" href="documents/week1.pdf" target="_blank" rel="noopener">Open PDF</a></div><object id="documentFrame" title="Current lab record" data="documents/week1.pdf" type="application/pdf"><p>Your browser cannot display this PDF. <a href="documents/week1.pdf" target="_blank" rel="noopener">Open the PDF</a>.</p></object><div class="missing-document" id="missingDocument" hidden><div class="missing-icon">⌁</div><h3 id="missingTitle">This document is currently unavailable.</h3><p>Add the matching PDF to <strong>documents/</strong> and try again.</p><button class="tool-button" id="retryDocument">↻ Try again</button></div></div><div class="viewer-footer"><button class="week-nav" id="previousWeek">← <span>Previous week</span></button><span class="page-indicator" id="pageIndicator">01 / 02</span><button class="week-nav next" id="nextWeek"><span>Next week</span> →</button></div></section>
+            <footer class="bottom-nav" aria-label="Main navigation"><button class="active">⌂<span>Home</span></button><button>▣<span>Records</span></button><button>▤<span>Documents</span></button><button>◯<span>Profile</span></button></footer>
         </main>
-    </div>
-    <div class="scrim" id="scrim"></div>
-    <div class="toast" id="toast" role="status"></div>
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    </div><div class="scrim" id="scrim"></div><div class="toast" id="toast" role="status"></div><script src="data.js"></script><script src="app.js"></script>
 </body>
 </html>
